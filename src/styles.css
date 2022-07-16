@@ -1,0 +1,28 @@
+* {
+    background: #00000011;
+    background-color: #00000011;
+    border: 1px solid black;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+}
+
+.header{
+    grid-area: header;
+}
+
+.content{
+    grid-area: content;
+}
+
+.footer{
+    grid-area:footer;
+}
